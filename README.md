@@ -35,7 +35,10 @@ Bot này tự động hóa quá trình tạo tài khoản và sử dụng mã gi
 3. Tạo tệp `proxy.txt` trong thư mục gốc và thêm proxy của bạn (mỗi dòng một proxy).
 
 4. thay đổi `client_secret.json.example` thành `client_secret.json`.
-
+5. Chạy :
+     ```sh
+   node main.js
+   ```
 ## Đầu ra
 
 - Các tài khoản đã tạo sẽ được lưu trong `accounts.txt`.
